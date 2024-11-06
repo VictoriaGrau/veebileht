@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Main Page</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav>
+        <label for="page-select">Go to:</label>
+        <select id="page-select" onchange="navigateToPage()">
+            <option value="">Vali lehekülg</option>
+            <option value="index.html">Avaleht</option>
+            <option value="leht2.html">Magustoidud</option>
+            <option value="leht3.html">Soolased toidud</option>
+        </select>
+    </nav>
+    <h1>Magusad toidud</h1>
+    <p>Valik erinevaid magustoite. Leia just endale sobiv.</p>
+    <p>Maasika kook</p>
+    <img src="https://scientificallysweet.com/wp-content/uploads/2024/05/IMG_3756-er-1188x1536.jpg" alt="tort1" width="250" height="200">
+    <p>Muffinid</p>
+    <img src="https://www.allrecipes.com/thmb/RdyL1EgIB0Qq_fr5HjdsAmcpMlU=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/228553-moist-chocolate-muffins-DDMFS-4x3-a9f73a46938547c99d921613dc167741.jpg" alt="muffin" width="250" height="200">
+    <script>
+        function navigateToPage() {
+            const select = document.getElementById("page-select");
+            const selectedPage = select.value;
+    
+            if (selectedPage) {
+                window.location.href = selectedPage;
+            }
+        }
+    </script>
+</body>
+</html>
