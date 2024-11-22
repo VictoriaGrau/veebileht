@@ -5,11 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Main Page</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="style1.css">
     <script src="nupp.js"></script>
 </head>
 <body>
     <nav>
-        <label for="page-select">Go to:</label>
+        <label for="page-select">Lehekülg:</label>
         <select id="page-select" onchange="navigateToPage()">
             <option value="">Vali lehekülg</option>
             <option value="index.html">Avaleht</option>
@@ -19,8 +20,28 @@
     </nav>
     
     <h1>Retseptiraamat</h1>
-    <p>Kokkamine on tore. Siit lehelt leiad huvitvaid retsepte, mida katsetada.</p>
-    <img src="https://www.mdanderson.org/images/publications/focused-on-health/2019/web_healthy_cooking_1376x774.png.resize.702.404.jpg" alt="cooking" width="350" height="200">
-    
+    <p>Kokkamine on tore!</p>
+    <br>
+    <! -- Abi ning inspiratsioon https://www.w3schools.com/howto/howto_js_slideshow.asp -->
+    <div class="slaidid">
+        <div class="slaid">
+            <img src="https://i.pinimg.com/474x/80/6b/8c/806b8cab4f81b7719f51364e38dd7eaf.jpg">
+        </div>
+        <div class="slaid">
+            <img src="https://nami-nami.ee/files//recipes/2101/valgeshokolaaditoorjuustukook.jpg">
+        </div>
+        <div class="slaid">
+            <img src="https://i.pinimg.com/control2/474x/54/ff/d8/54ffd8d59b6972dacd1df994cbd2b37a.jpg">
+        </div>
+        <div class="slaid">
+            <img src="https://i.pinimg.com/control2/474x/b7/46/ee/b746ee2653c180da2c34f6cfb3df2570.jpg">
+        </div>
+        <div class="slaid">
+            <img src="https://i.pinimg.com/474x/e8/5a/87/e85a87bc261d8905a48deeb6c7d9bdad.jpg">
+        </div>
+    </div>
+    <p1>Siit lehelt leiad huvitvaid retsepte, mida katsetada. 
+        Piltidel on näha kõiki leiduvate retseptide tulemusi.</p1>
+    <script src="slaidid.js"></script>   
 </body>
 </html>
