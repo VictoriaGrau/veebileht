@@ -9,14 +9,28 @@
 img {
     max-width: 300px;
     max-height: 350px;
+    border: 5px solid;
 }
 
 p {
     font-size: 20px;
+    position: relative;
  }
 
 p1 {
     font-size: 20px;
-    margin-left: 50px
+    margin-left: 50px;
+    position: justify;
+
+}
+
+table, td {
+    border: 2px solid;
+    border-collapse: collapse;
+    margin-top: 10px;
+    margin-left: 290px;
+    width: 400px;
+    font-size: 17px;
+    background-color: white;
 }
 
