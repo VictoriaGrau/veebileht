@@ -15,19 +15,23 @@ h2 {
 p {
     margin-bottom: 60px;
     text-align: justify;
-    font-size: 18px;
+    font-size: 19px;
+    font-family:'Times New Roman', Times, serif;
 }
 
 p2 {
-    font-size: 18px;
+    font-size: 19px;
+    font-family:'Times New Roman', Times, serif;
 }
 
 p1 {
-    font-size: 20px;
+    font-size: 22px;
+    font-family:'Times New Roman', Times, serif;
 }
 
 ul {
-    font-size: 18px;
+    font-size: 19px;
+    font-family:'Times New Roman', Times, serif;
 }
 
 .tulbad {
@@ -40,6 +44,7 @@ ul {
 }
 .vahe {
     display: flex;
+    
 }
 .vahe > div {
     margin-top: 17px;
