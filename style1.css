@@ -19,7 +19,6 @@ p {
 
 p1 {
     font-size: 20px;
-    margin-left: 50px;
     position: justify;
 
 }
@@ -28,7 +27,6 @@ table, td {
     border: 2px solid;
     border-collapse: collapse;
     margin-top: 10px;
-    margin-left: 290px;
     width: 400px;
     font-size: 17px;
     background-color: white;

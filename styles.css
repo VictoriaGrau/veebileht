@@ -16,3 +16,12 @@ select {
     background-color: lavender;
 }
 
+.vahe {
+    display: flex;
+    
+}
+
+.vahe > div {
+    margin-top: 17px;
+    padding-left: 50px;
+}
