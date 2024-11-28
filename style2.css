@@ -1,4 +1,6 @@
-
+body {
+    margin: 50px;
+}
 h2 {
     font-size: 30px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -13,7 +15,7 @@ h2 {
 }
    
 p {
-    margin-bottom: 60px;
+    padding-bottom: 60px;
     text-align: justify;
     font-size: 19px;
     font-family:'Times New Roman', Times, serif;
@@ -27,6 +29,7 @@ p2 {
 p1 {
     font-size: 22px;
     font-family:'Times New Roman', Times, serif;
+    
 }
 
 ul {
