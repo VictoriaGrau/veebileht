@@ -19,11 +19,11 @@ select {
 }
 
 .vahe {
-    display: flex;
-    
+    display:flex;
 }
 
 .vahe > div {
     margin-top: 17px;
     padding-left: 50px;
 }
+

@@ -23,7 +23,7 @@ p {
 
 p1 {
     font-size: 22px;
-    font-family:'Times New Roman', Times, serif;  
+    font-family:'Times New Roman', Times, serif;
 }
 
 p2 {
@@ -34,13 +34,4 @@ p2 {
 ul {
     font-size: 19px;
     font-family:'Times New Roman', Times, serif;
-}
-
-.tulbad {
-    display: flex;
-  }
-
-.tulbad > div {
-    margin: 25px;
-    margin-top: 17px;
 }

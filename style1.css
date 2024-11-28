@@ -46,11 +46,11 @@ p1 {
 
 }
 
-table, td {
+table, th, td {
     border: 2px solid;
     border-collapse: collapse;
     margin-top: 10px;
-    width: 400px;
+    width: 700px;
     font-size: 17px;
     background-color: white;
 }
