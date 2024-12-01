@@ -1,19 +1,19 @@
 
-let slideIndex = 0;
+let slideIndex = 0; //Määrab milline slaid on nähtav.
 showSlides();
 
 function showSlides() {
   let i;
-  let slides = document.getElementsByClassName("slaid");
+  let slides = document.getElementsByClassName("slaid"); //Html klassiga "slaid" elementide salvestamine massiivi slides.
   for (i = 0; i < slides.length; i++) {
-    slides[i].style.display = "none";
+    slides[i].style.display = "none";  // Esialgu kõik pildid peidetakse, väärtuseks antakse neile "none".
   }
-  slideIndex++;
+  slideIndex++;  //Suurendab slaidi indeksid 1 võrra.
   if (slideIndex > slides.length) {
-    slideIndex = 1
+    slideIndex = 1              //Kui on viimane slaid, siis minnakse peale seda uuesti esimese slaidi peale.
   }
   slides[slideIndex-1].style.display = "block";
-  setTimeout(showSlides, 4000); 
+  setTimeout(showSlides, 4000);  //Üks slaid on ees 4 sekundit.
   }
 
 // Kood on pärit.
