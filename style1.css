@@ -2,12 +2,15 @@ body {
     margin-left: 0;
     margin-right:0;
 }
+
 nav {
     margin-left:50px;
 }
+
 .slaidid {
     float: left;
     margin-left: 50px;
+    padding-right:50px;
 }
 
 .slaid {
@@ -18,6 +21,7 @@ img {
     max-width: 300px;
     max-height: 350px;
     border: 5px solid;
+
 }
 
 .näide {
@@ -27,7 +31,7 @@ img {
 }
 
 .konteiner {
-    max-width:960px;
+    max-width:1000px;
     margin-left: auto;
     margin-right:auto;
     line-height: 30;
@@ -40,10 +44,11 @@ p {
     text-align: center;
  }
 
-p1 {
-    font-size: 20px;
-    position: justify;
-
+.juhend {
+    font-size: 22px;
+    text-align:justify;
+    font-family:'Times New Roman', Times, serif;
+    padding-right:50px;
 }
 
 table, th, td {
