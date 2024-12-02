@@ -1,12 +1,142 @@
 body {
-    margin: 50px;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
 }
+
+.title {
+    margin: 0;
+    padding: 0;
+    font-size: 24px;
+    font-weight: bold;
+    color: black;
+  }
+
+body {
+    font-family: Arial, sans-serif;
+    background-color:lavender;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    line-height: 1.6;
+}
+
+h1 {
+    color: #000;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 50px;
+    text-align: center;
+    border: 3px solid black;
+    border-radius: 20px;
+    padding: 10px 20px;
+    margin: 0 auto;
+    background-color: transparent;
+    width: fit-content;
+}
+
+select {
+    font-size: 18px;
+    background-color: lavender;
+}
+
+.rounded-box {
+    display: inline-block;
+    padding: 10px 20px;
+    border: 2px solid black;
+    border-radius: 15px;
+    color: black;
+    font-size: 2em;
+    text-align: center;
+}
+
+.title-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    margin: 20px auto;
+    padding: 0;
+}
+
+.title-container h1 {
+    font-size: 36px;
+    margin: 0;
+    padding: 10px;
+}
+
+nav {
+    background-color: white;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    padding: 10px 0;
+    z-index: 100;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+nav h1 {
+    font-size: 24px;
+    margin: 0;
+    padding: 5px 20px;
+    border: 2px solid black;
+    display: inline-block;
+    border-radius: 5px;
+}
+
+nav label, nav select {
+    font-size: 14px;
+}
+
+nav .page-selector {
+    margin-top: 10px;
+}
+
+.title-container {
+    position: sticky;
+    top: 0;
+    background-color: #fff;
+    z-index: 1000;
+    padding: 10px 15px;
+    border-bottom: 1px solid #ddd;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.page-selector {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+p.juhend, h2, .õpetus {
+    margin: 1rem;
+}
+
+
+img.pilt {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+.sticky-area {
+    position: sticky;
+    top: 0;
+    background-color: white;
+    z-index: 10;
+    padding: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+
+style23.css:
 
 h2 {
     font-size: 30px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     padding-bottom: 20px;
-    padding-left: 20px;
 }  
 
 .pilt {
@@ -24,14 +154,22 @@ h2 {
     padding-bottom:20px;
 }
 
+
 p {
     font-size: 19px;
     font-family:'Times New Roman', Times, serif;
     text-align: justify;
 }
 
+
 .õpetus {
     padding-bottom: 60px;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 10px;
+    display: inline-block;
+    background-color:peachpuff;
+    margin-left: 20px;
 }
 
 ul {
