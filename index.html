@@ -9,22 +9,32 @@
     <script src="nupp.js"></script>
 </head>
 <body>
+    <!-- Sticky white header with title and page selection -->
     <nav>
-        <label for="page-select">Lehekülg:</label>
-        <select id="page-select" onchange="navigateToPage()">
-            <option value="">Vali lehekülg</option>
-            <option value="index.html">Avaleht</option>
-            <option value="leht2.html">Magustoidud</option>
-            <option value="leht3.html">Soolased toidud</option>
-        </select>
+        <h1>Retseptiraamat</h1>
+        <div class="page-selector">
+            <label for="page-select">Lehekülg:</label>
+            <select id="page-select" onchange="navigateToPage()">
+                <option value="">Vali lehekülg</option>
+                <option value="index.html">Avaleht</option>
+                <option value="leht2.html">Magustoidud</option>
+                <option value="leht3.html">Soolased toidud</option>
+            </select>
+        </div>
     </nav>
+
+    <!-- Content starts here -->
+    <p>Kokkamine on tore!</p>
+
+    <!-- Additional content like slides and recipes go here -->
+
+    <script src="slaidid.js"></script>
     <br>
     <div class="näide">
         <div class="konteiner">
             <br class="kujutis">
         </div>
     </div>
-    <h1>Retseptiraamat</h1>
     <p>Kokkamine on tore!</p>
     <br>
     <!-- Slaidide abi W3Schools.(). How TO - Slideshow. W3Schools. Kasutatud 23.11.2024, https://www.w3schools.com/howto/howto_js_slideshow.asp-->
@@ -91,8 +101,10 @@
         </div>
     </div>
 
+    <script src="slaidid.js"></script>  
+
     <p class="juhend">Siit lehelt leiad huvitvaid retsepte, mida katsetada. Retsepte on igale maitsele ja meelele.
-    Piltidel on näha lehel leiduvate retseptide tulemusi.</p>
+    Pildid iseloomustavad lehtedel leiduvate toitude välimusi.</p>
     <p class="juhend">Retseptide nimekiri:</p>
 
     <table>
@@ -140,9 +152,7 @@
             <td>Mustikamuffinid</td>
             <td>Ahjulõhe</td>
         </tr>
-    </table>
-    
-    <script src="slaidid.js"></script>   
+    </table> 
 
 </body>
 </html>

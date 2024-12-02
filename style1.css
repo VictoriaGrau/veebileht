@@ -3,18 +3,39 @@ body {
     margin-right:0;
 }
 
-nav {
-    margin-left:50px;
+.slaidid {
+    position: relative;
+    max-width: 100%;
+    margin: auto;
+    overflow: hidden;
 }
 
-.slaidid {
-    float: left;
-    margin-left: 50px;
-    padding-right:50px;
+.slaid img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
 }
 
 .slaid {
-    display: none;
+    display: none; /* Hidden by default */
+    position: absolute;
+    width: 100%;
+    height: auto;
+    top: 0;
+    left: 0;
+}
+
+.fade {
+    animation: fadeEffect 1.5s;
+}
+
+@keyframes fadeEffect {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
 }
 
 img {
@@ -25,7 +46,7 @@ img {
 }
 
 .näide {
-    background-image: url("kokkamine.jpg");
+    background-image: url("kokkamine2.jpg");
     background-repeat: no-repeat;
     background-size:cover
 }
@@ -57,11 +78,10 @@ table, th, td {
     margin-top: 10px;
     width: 700px;
     font-size: 17px;
-    background-color: white;
+    background-color:lavender;
 }
 
 .keskele {
     padding-right:100px;
     padding-left:100px;
 }
-

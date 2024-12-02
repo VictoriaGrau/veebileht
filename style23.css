@@ -2,6 +2,24 @@ body {
     margin: 50px;
 }
 
+.rounded-box {
+    display: inline-block;
+    padding: 10px 20px;
+    border: 2px solid black;
+    border-radius: 15px;
+    color: black;
+    font-size: 2em;
+    text-align: center;
+}
+
+.title-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+    margin-top: 20px;
+}
+
 h2 {
     font-size: 30px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -30,8 +48,15 @@ p {
     text-align: justify;
 }
 
+
+
 .õpetus {
     padding-bottom: 60px;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 10px;
+    display: inline-block;
+    background-color:peachpuff;
 }
 
 ul {

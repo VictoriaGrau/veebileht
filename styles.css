@@ -1,9 +1,9 @@
 body {
     font-family: Arial, sans-serif;
     background-color:lavender;
-    margin-top: 50px;
-    margin-bottom: 50px;
-    
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
 }
 
 h1 {
@@ -11,6 +11,13 @@ h1 {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 50px;
     text-align: center;
+    display: inline-block;
+    color: black;
+    border: 3px solid black;
+    border-radius: 20px;
+    padding: 10px 20px;
+    margin: 0 auto;
+    position: relative;   
 }
 
 select {
@@ -18,5 +25,44 @@ select {
     background-color: lavender;
 }
 
+.title-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
 
+.title-container h1 {
+    font-size: 36px;
+    margin: 0;
+    padding: 10px;
+}
 
+nav {
+    position: sticky;
+    top: 0;
+    z-index: 100; /* Higher than content but not overriding slideshow */
+    background-color: white;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 15px 0;
+}
+
+nav h1 {
+    font-size: 24px; /* Adjust title size */
+    margin: 0; /* Remove default margin */
+    padding: 5px 20px; /* Add padding inside the border */
+    border: 2px solid black; /* Border around the title */
+    display: inline-block; /* Make the border fit tightly around the text */
+    border-radius: 5px; /* Add rounded corners for aesthetics */
+}
+
+nav label, nav select {
+    font-size: 14px; /* Adjust font size for dropdown and label */
+}
+
+nav .page-selector {
+    margin-top: 10px; /* Space between the title and the dropdown */
+}
